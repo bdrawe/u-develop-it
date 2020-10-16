@@ -8,4 +8,6 @@ router.use(require('./votersRoutes'))
 
 router.use(require('./candidatesRoutes'));
 
+router.use(require('./voteRoutes'));
+
 module.exports = router;
